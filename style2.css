@@ -1,0 +1,29 @@
+.form-title{
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+.form-button {
+    background-color: pink;
+    padding: 10px 50px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 8px;
+    margin-top: 80px;
+}
+.button {
+    cursor: pointer;
+}
+.inputtt {
+    border-radius: 4px;
+}
+input:focus {
+    background-color: pink;
+}
+input::placeholder {
+    color: gray;
+    font-size: 0.9em;
+    font-style: italic;
+}

@@ -1,0 +1,35 @@
+.form-button {
+    background-color: pink;
+    padding: 10px 50px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 8px;
+    text-align: center;
+}
+.button {
+    cursor: pointer;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px 1em 30px auto;
+}
+th {
+    height: 40px;
+    background-color: darkgray;
+}
+.td1::first-letter {
+    color: darkmagenta;
+    font-size: 150%;
+}
+ul li::marker, ol li::marker {
+    color: darkmagenta;
+    font-size: 1.5em;
+}
+
+ul, ol, dl {
+    margin-left: 140px;
+}

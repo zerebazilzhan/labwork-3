@@ -1,0 +1,48 @@
+<!Doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>LabWork-2</title>
+    <link rel="stylesheet" href="style1.css">
+    <style> 
+        .input {
+            background-color: pink;
+        }
+    </style>
+</head>
+<body style="background-color: #b3c6be;" align="center">
+    <form class="form">
+        <h1 class="form-title" style="color:#404040">Форма регистрации</h1>
+        
+        <label for="name" style="font-weight: bold; color: #404040;">Имя Фамилия</label><br>
+        <input class="inputtt" type="text" id="name" name="name" style="border: 2px solid gray;" placeholder="Введите Имя и Фамилию..."><br>
+        
+        <label for="email" style="font-weight: bold; color: #404040;" >Email</label><br>
+        <input class="inputtt" type="email" id="email" name="email" style="border: 2px solid gray;" placeholder="Введите email..."><br>
+        
+        <label for="password" style="font-weight: bold; color: #404040;">Пароль</label><br>
+        <input class="inputtt" type="password" id="password" name="password" style="border: 2px solid gray;" placeholder="Введите пароль..."><br><br><br>
+        
+        <p style="font-weight:bold; color: #404040;">У вас есть домашние животные?</p>
+        <input type="checkbox" id="cat" name="animal" value="cat">
+        <label for="cat" style="font-weight: bold; color: #404040;">У меня есть кот</label><br>
+        <input type="checkbox" id="dog" name="animal" value="dog">
+        <label for="dog" style="font-weight: bold; color: #404040;">У меня есть собака</label><br>
+        <input type="checkbox" id="none" name="animal" value="none">
+        <label for="none" style="font-weight: bold; color: #404040;">У меня нет домашних животных</label><br><br><br>
+        
+        <p style="font-weight:bold; color: #404040;">Ваш пол: </p>
+        <input type="radio" id="man" name="pol" value="man">
+        <label for="man" style="font-weight: bold; color: #404040;">Мужчина</label><br>
+        <input type="radio" id="woman" name="pol" value="woman">
+        <label for="woman" style="font-weight: bold; color: #404040;">Женщина</label><br><br><br>
+
+        <label for="birthday" style="font-weight: bold; color: #404040;">Укажите ваш день рождения:</label><br>
+        <input class="inputtt" type="date" id="birthday" name="birthday" style="font-weight: bold; color: #404040; border: 2px solid gray;"><br><br>
+        
+        
+        <button class="form-button" style="border: 2px solid gray;"><a class="button" href="web2.html" style="font-weight: bold; color: #404040"> Зарегестрироваться </a></button>
+    </form>
+</body>
+
+</html>
